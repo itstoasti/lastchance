@@ -1,0 +1,43 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  @apply bg-gray-900 text-white;
+}
+
+#header {
+  @apply bg-gray-800 text-center py-4;
+}
+
+#nav-bar {
+  @apply flex justify-around py-2;
+}
+
+#footer {
+  @apply bg-gray-800 text-center py-4 mt-4;
+}
+
+.container {
+  @apply max-w-5xl mx-auto px-4;
+}
+
+.card {
+  @apply bg-gray-700 rounded-lg shadow-lg overflow-hidden my-4;
+}
+
+.card-content {
+  @apply p-4;
+}
+
+.button {
+  @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+}
+
+.error-message {
+  @apply text-red-500;
+}
+
+.success-message {
+  @apply text-green-500;
+}

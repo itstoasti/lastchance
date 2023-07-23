@@ -1,0 +1,43 @@
+@import 'tailwind.css';
+
+body {
+    background-color: #1a202c;
+    color: #a0aec0;
+}
+
+#header {
+    padding: 20px;
+    text-align: center;
+    background-color: #2d3748;
+    color: #a0aec0;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #2d3748;
+}
+
+#footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #2d3748;
+    color: #a0aec0;
+}
+
+.successMessage {
+    color: #48bb78;
+}
+
+.errorMessage {
+    color: #e53e3e;
+}
+
+.updateMessage {
+    color: #38b2ac;
+}
+
+.deleteMessage {
+    color: #e53e3e;
+}
